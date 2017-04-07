@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 14px;
+	font-family: "Open Sans", sans;
+	width: 100%;
+}
+
+
+/* Navigation */
+.navbar-default .navbar-nav li a {
+	font-size: 1.1rem;
+	font-weight: bold;
+	font-family:inherit;
+}
+
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
+	color: #399bd1;
+	background-color:inherit;
+}
+
+
+	
