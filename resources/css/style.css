@@ -31,6 +31,34 @@ h4 {
 	font-size: 1rem;
 }
 
+.btn-jumpin, .btn-learn-more {
+	position: relative;
+	width: 100%;
+	padding: 2.8rem;
+	text-align: center;
+}
+
+.btn {
+	background-color: #399bd1;
+	color: white;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	width: 11.4rem;
+	padding: 1.3rem;
+}
+
+.btn:hover {
+	color: white;
+	background-color: #399bd1;
+	box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.btn:active {
+	background-color: #399bd1;
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+
+
 /* Navigation */
 .navbar-default .navbar-nav li a {
 	font-size: 1.1rem;
@@ -74,27 +102,9 @@ h4 {
 /* Jump in Button */
 
 .btn-jumpin {
-	position: relative;
-	width: 100%;
-	padding: 2.8rem;
 	margin-top: -17rem;
-	text-align: center;
 }
 
-.btn-jumpin .btn {
-	background-color: #399bd1;
-	box-shadow: 0 0 3px rgba(0,0,0,0.5);
-	width: 11.4rem;
-	padding: 1.3rem;
-}
-
-.btn-jumpin .btn:hover {
-	box-shadow: 0 0 12px rgba(0,0,0,0.9);
-}
-
-.btn-jumpin .btn:active {
-	box-shadow: 0 0 0 rgba(0,0,0,0.5);
-}
 
 /* Featured Project and Projects section */
 #featured {
@@ -119,9 +129,34 @@ h4 {
 	padding-bottom: 5.85rem;
 }
 
+.project {
+	padding-bottom: 5rem;
+}
+
 .project img {
 	opacity: 0.4;
 }
+
+.project p {
+	font-size: 1.5rem;
+}
+
+/*Having trouble section */
+#trouble {
+	padding: 5.2rem 0;
+	background-color: #f3f3f3;
+}
+
+#trouble h1 {
+	font-size: 2.5rem;
+	padding-bottom: 1.4rem;
+}
+
+#trouble p {
+	width: 42rem;
+	margin: 0 auto;
+}
+
 
 /*#### large adjustments*/
 @media only screen and (min-width:992px) {
@@ -134,4 +169,13 @@ h4 {
 			margin-top: 0;
 	}
 	
+	.project {
+		padding-bottom:0;
+	}
+	
+	.project P {
+		font-size: 1rem;
+	}
+
+
 }
