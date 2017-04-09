@@ -23,7 +23,7 @@ body {
 
 /* Jumbotron */
 .jumbotron  {
-	min-height: 45rem;
+	min-height: 55rem;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -55,7 +55,7 @@ body {
 	position: relative;
 	width: 100%;
 	padding: 2.8rem;
-	margin-top: -15rem;
+	margin-top: -17rem;
 	text-align: center;
 }
 

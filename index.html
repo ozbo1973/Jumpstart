@@ -1,60 +1,114 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Jumpstart Home Page</title>
-
-<!--favicon -->
-<link href="./resources/img/favicon.png" rel="icon" type="image/x-icon" />
-
-<!-- fonts -->
-<link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
-
-<!-- Link Css -->
-<link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-<link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
-
-
-</head>
-
-<body>
-
-<!-- Navigatin bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-  	<ul class="nav navbar-nav">
-      <li class="active"><a href="#">Explore</a></li>
-      <li><a href="#">Start a project</a></li>
-      <li><a href="#">About us</a></li>
-    </ul>
-    <div class="navbar-header navbar-right collapse navbar-collapse">
-    	<a href="#" class="navbar-brand">
-      	<img src="./resources/img/logo.png" alt="Jumpstart logo click to home page" />
-      </a>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Jumpstart Home Page</title>
+    
+    <!--favicon -->
+    <link href="./resources/img/favicon.png" rel="icon" type="image/x-icon" />
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,600,700" rel="stylesheet">
+    
+    <!-- Link Css -->
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />  
+  </head>
+  
+  <body>
+  
+  <!-- Navigatin bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Explore</a></li>
+        <li><a href="#">Start a project</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+      <div class="navbar-header navbar-right collapse navbar-collapse">
+        <a href="#" class="navbar-brand">
+          <img src="./resources/img/logo.png" alt="Jumpstart logo click to home page" />
+        </a>
+      </div>
     </div>
+  </nav>
+  
+  <!--Jumbotron section -->
+  <section id="banner" class="jumbotron jumbotron-bike">
+    <div class="container-fluid">
+      <h1>Get Going</h1>
+      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+    </div>
+  </section>
+  
+  <!--Button -->
+  <div class="btn-jumpin">
+        <a class="btn btn-primary btn-lg" href="#">Jump in</a>
   </div>
-</nav>
-
-<!--Jumbotron section -->
-<section class="jumbotron jumbotron-bike">
-	<div class="container-fluid">
-		<h1>Get Going</h1>
-    <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-  </div>
-</section>
-
-<!--Button -->
-<div class="btn-jumpin">
-  		<a class="btn btn-primary btn-lg" href="#">Jump in</a>
-</div>
-
-
-<!--Javascript Files -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script type="text/javascript" src="./resources/js/main.js"></script>
-</body>
+  
+  <!--Featured Section -->
+  <section id="featured" class="features">
+  	<div class="container">
+			<h2>Featured project</h2>
+      <div class="row">
+      	<div class="col-md-6 col-sm-12">
+        	<div class="image-container">
+        		<img src="#" alt="" />
+          </div>
+        </div>
+        <div id="project-title" class="col-md-3 col-sm-6">
+        	<h3>Project Title</h3>
+          <h4></h4>
+          <p></p>
+        </div>
+        <div id="product-categories" class="col-md-3 col-sm-6">
+        	<h3>Product Categories</h3>
+					<!--build product category list with jquery -->
+        </div>	
+      </div>
+      <div class="row">
+      	<div class="col-sm-12 col-md-4 feature">
+        	<div class="image-container">
+          	<img src="" alt="" />
+          </div>
+          <h3>Project Title</h3>
+          <h4></h4>
+          <p></p>
+        </div>
+        <div class="col-sm-12 col-md-4 feature">
+        	<div class="image-container">
+          	<img src="" alt="" />
+          </div>
+          <h3>Project Title</h3>
+          <h4></h4>
+          <p></p>
+        </div>
+        <div class="col-sm-12 col-md-4 feature">
+        	<div class="image-container">
+          	<img src="" alt="" />
+          </div>
+          <h3>Project Title</h3>
+          <h4></h4>
+          <p></p>
+        </div>
+        
+      </div>
+    </div>	  	
+  </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--Javascript Files -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script type="text/javascript" src="./resources/js/main.js"></script>
+  </body>
 </html>
